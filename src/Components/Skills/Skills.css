@@ -1,0 +1,61 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    /* background: lightblue; */
+    margin-top: 12rem;    
+}
+.technologies{
+    display: flex;        
+    flex-wrap: wrap;        
+    gap: 100px;              
+    justify-content: center; 
+    padding: 100px;  
+    /* background: lightgreen; */
+}
+.techs{
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: 120px;             
+    text-align: center;           
+    /* background-color: #f9f9f9;  */
+    border-radius: 100%;
+}
+.techs>img{
+    width: 100%;
+    height: auto;
+}
+
+.awesome-skills{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* background: lightcyan; */
+}
+.awesome-skills>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome-skills>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+
+    .technologies{
+        display: flex;        
+        flex-wrap: wrap;        
+        gap: 50px;              
+        justify-content: center; 
+        padding: 30px;  
+        /* background: lightgreen; */
+    }
+    .techs{
+        flex: 0 0 auto; 
+        max-width: 100px;             
+        text-align: center;           
+        /* background-color: #f9f9f9;  */
+        border-radius: 100%;
+    }
+}

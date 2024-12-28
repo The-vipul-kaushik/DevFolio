@@ -1,0 +1,59 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+html {
+  font-size: calc(1rem + 0.5vw); /* Adjust based on viewport width */
+}
+
+/* Optional fallback for very small screens */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px; /* Set a smaller base font size for mobile */
+}
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button{
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 0.6rem;
+  padding: 0.4rem 1.6rem;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 0.3rem 1.25rem 0.125rem rgba(251, 161, 40, 0.42);
+}
+
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: white;
+  z-index: -9;
+  filter: blur(72px);
+  color: rgba(255, 255, 0, 0.589);
+}
+  
+
+  
