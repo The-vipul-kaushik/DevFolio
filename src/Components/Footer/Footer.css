@@ -5,6 +5,7 @@
     position: relative;
     margin-top: 4rem;
     height: 50vh;
+    /* border: 2px solid; */
 }
 .f-content{
     position: absolute;

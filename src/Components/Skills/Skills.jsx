@@ -43,6 +43,9 @@ const Skills = () => {
             <img src={javascript} className='circle'/>
           </div>
           <div className='techs'>
+            <img src={bootstrap} className='circle'/>
+          </div>
+          <div className='techs'>
             <img src={react} className='circle'/>
           </div>
           <div className='techs'>
