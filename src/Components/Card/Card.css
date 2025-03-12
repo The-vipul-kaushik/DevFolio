@@ -1,10 +1,8 @@
 .card{
-    width: 12rem;
-    height: auto;
-    position: absolute;
+    width: 17rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     align-items: center;
     text-align: center;
     background: rgba(255, 255, 255, 0.26);
@@ -17,8 +15,7 @@
     font-size: 0.6rem;
 }
 .card>img{
-    margin-top: 0.5rem;
-    transform: scale(0.9);
+    transform: scale(0.7);
 }
 .c-button{
     background: #ffffff;

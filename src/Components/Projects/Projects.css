@@ -1,5 +1,6 @@
 .projects{
     display: flex;
+    flex-direction: column;
     height: 140vh;
     margin-top: 9rem;
     margin-bottom: 8rem;
@@ -28,13 +29,17 @@
     margin-top: 1rem;
 }
 .cards{
-    position:relative;
+    height: 100vh;
+    padding-top: 50px;
     display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
     /* background: red; */
 }
-.cards>*{
-    position: absolute;
-}
+.cards > div {
+    flex: 1; /* Equal width for all cards */
+    max-width: 30%; /* Prevents overlapping */
+  }
 
 @media screen and (max-width: 480px){
     .projects{
