@@ -31,6 +31,17 @@
 }
 @media screen and (max-width: 480px){
     .card{
-        width: auto;
+        width: 15rem;
+        padding: 0;
+        height: auto;
+    }
+    .card>img{
+        transform: scale(0.4);
+        margin-top: -5rem;
+    }
+    .card span:nth-last-of-type(2){
+        font-size: 0.7rem;
+        margin-top: -5rem;
+        margin-bottom: 1rem;
     }
 }

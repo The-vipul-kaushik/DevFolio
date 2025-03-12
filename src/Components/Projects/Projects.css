@@ -51,9 +51,9 @@
     .cards{
         display: flex;
         flex-direction: column;
-        gap: 22rem;
+        gap: 4rem;
     }
-    .cards>*{
+    /* .cards>*{
         position: static;
-    }
+    } */
 }
